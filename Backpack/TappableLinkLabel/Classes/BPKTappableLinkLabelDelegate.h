@@ -16,12 +16,14 @@
  * limitations under the License.
  */
 
-#ifndef __BACKPACK_CALENDAR__
-#define __BACKPACK_CALENDAR__
-#import "BPKCalendar.h"
-#import "BPKCalendarCell.h"
-#import "BPKCalendarHeaderCell.h"
-#import "BPKCalendarStickyHeader.h"
-#import "BPKCalendarYearPill.h"
-#import "BPKSimpleDate.h"
-#endif
+#import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
+@class BPKTappableLinkLabel;
+@protocol BPKTappableLinkLabelDelegate
+
+- (void)attributedLabel:(BPKTappableLinkLabel *)label didSelectLinkWithURL:(NSURL *)url;
+
+@end
+
+NS_ASSUME_NONNULL_END

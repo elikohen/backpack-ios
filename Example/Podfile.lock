@@ -1,9 +1,11 @@
 PODS:
   - Backpack (11.0.1):
     - FSCalendar (~> 2.8)
+    - TTTAttributedLabel (~> 1.13.4)
   - FSCalendar (2.8.0)
   - iOSSnapshotTestCase/Core (4.0.0)
   - SwiftLint (0.31.0)
+  - TTTAttributedLabel (1.13.4)
 
 DEPENDENCIES:
   - Backpack (from `../`)
@@ -15,16 +17,18 @@ SPEC REPOS:
     - FSCalendar
     - iOSSnapshotTestCase
     - SwiftLint
+    - TTTAttributedLabel
 
 EXTERNAL SOURCES:
   Backpack:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Backpack: 4dee2ec4fee0dd927d59573f23074a522719f778
+  Backpack: b2c7ca956756be00bfa1a17e1ca82195c03cfba0
   FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
   iOSSnapshotTestCase: 711379b19f69a22c131527df862352c877c2773c
   SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
 
 PODFILE CHECKSUM: 2b7757d98d63d1da32c3b85740cb45a98cd4f356
 
