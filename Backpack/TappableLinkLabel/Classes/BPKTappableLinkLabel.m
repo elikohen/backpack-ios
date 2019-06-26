@@ -83,6 +83,9 @@ NS_ASSUME_NONNULL_BEGIN
                                               [self.bottomAnchor constraintEqualToAnchor:self.contentView.bottomAnchor],
                                               [self.trailingAnchor constraintEqualToAnchor:self.contentView.trailingAnchor]
                                               ]];
+
+    // This initial call to set up colours is needed in case there is no theme initially applied
+    [self updateTextColors];
 }
 
 - (void)resetLinks {
@@ -161,6 +164,10 @@ NS_ASSUME_NONNULL_BEGIN
 
         [self updateTextColors];
     }
+}
+
+- (CGSize)size {
+    return _contentView.attributedText.size;
 }
 
 #pragma BPKTappableLinkLabelDelegate

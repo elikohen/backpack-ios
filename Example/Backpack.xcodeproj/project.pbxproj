@@ -60,6 +60,7 @@
 		D28B3611219C209000E82A79 /* ChipUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B3610219C209000E82A79 /* ChipUITest.swift */; };
 		D29349C02199C7690099D2EC /* BPKChipTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D29349BE2199C7650099D2EC /* BPKChipTest.m */; };
 		D29349C22199C9190099D2EC /* BPKChipSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D29349C12199C9190099D2EC /* BPKChipSnapshotTest.m */; };
+		D295701622C34EC300797F47 /* BPKTappableLinkLabelSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D295701422C34C9D00797F47 /* BPKTappableLinkLabelSnapshotTest.m */; };
 		D2A350B622143F0700DEA01F /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A350B522143F0700DEA01F /* Settings.storyboard */; };
 		D2A350BA2214435A00DEA01F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A350B92214435A00DEA01F /* SettingsViewController.swift */; };
 		D2B8A01B2147FF6A002290DE /* PreviewCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8A01A2147FF6A002290DE /* PreviewCollectionViewHeader.swift */; };
@@ -207,6 +208,7 @@
 		D28B3610219C209000E82A79 /* ChipUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipUITest.swift; sourceTree = "<group>"; };
 		D29349BE2199C7650099D2EC /* BPKChipTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPKChipTest.m; sourceTree = "<group>"; };
 		D29349C12199C9190099D2EC /* BPKChipSnapshotTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPKChipSnapshotTest.m; sourceTree = "<group>"; };
+		D295701422C34C9D00797F47 /* BPKTappableLinkLabelSnapshotTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPKTappableLinkLabelSnapshotTest.m; sourceTree = "<group>"; };
 		D2A350B522143F0700DEA01F /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		D2A350B92214435A00DEA01F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D2B8A01A2147FF6A002290DE /* PreviewCollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCollectionViewHeader.swift; sourceTree = "<group>"; };
@@ -548,6 +550,7 @@
 		D6D81D60213FEEB90013BB96 /* SnapshotTests */ = {
 			isa = PBXGroup;
 			children = (
+				D295701422C34C9D00797F47 /* BPKTappableLinkLabelSnapshotTest.m */,
 				D6B8D3B621417FFD00B0BFAB /* SnapshotTests-Info.plist */,
 				D246C1F521665056001CB366 /* BPKCardSnapshotTest.m */,
 				D29349C12199C9190099D2EC /* BPKChipSnapshotTest.m */,
@@ -945,6 +948,7 @@
 				D690703821590F0A0088C97B /* BPKButtonSnapshotTest.m in Sources */,
 				D6B7C246220C917100671624 /* BPKIconViewSnapshotTest.m in Sources */,
 				D6A1505E213FEEF000AAF968 /* BPKLabelSnapshotTest.m in Sources */,
+				D295701622C34EC300797F47 /* BPKTappableLinkLabelSnapshotTest.m in Sources */,
 				D6ECFDC1216D06F50093F22A /* BPKDialogViewSnapshotTest.m in Sources */,
 				600E2AD0218B119000E959B3 /* BPKSwitchSnapshotTest.m in Sources */,
 				D6D494B3214FF3CA0095F9CF /* BPKIconSnapshotTest.m in Sources */,

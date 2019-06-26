@@ -34,6 +34,7 @@ NS_SWIFT_NAME(TappableLinkLabel) IB_DESIGNABLE @interface BPKTappableLinkLabel :
 
 @property(nonatomic, readwrite) BPKFontStyle fontStyle;
 @property(nonatomic, copy, nullable) NSString *text;
+@property(nonatomic, readonly) CGSize size;
 
 @property(nonatomic, weak) id<BPKTappableLinkLabelDelegate> delegate;
 
